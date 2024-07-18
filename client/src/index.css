@@ -1,13 +1,23 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  font-size: 62.5%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Kode+Mono:wght@400..700&family=Libre+Barcode+39&family=Quicksand:wght@300..700&family=Righteous&display=swap');
+
+
+
+
+:root{
+  --primary-color--:#fff;
+  --secondary-color--:linear-gradient(135deg, #0093E9 19%, #80D0C7 88%);
+  --accent-color--:linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }

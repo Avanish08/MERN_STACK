@@ -1,0 +1,104 @@
+.nav{
+    height: 10rem;
+    width: 100%;
+    background-image: var(--secondary-color--);
+    color: aliceblue;
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+}
+.logo{
+    margin:0 3rem;
+    font-size: 5rem;
+}
+.logo img{
+    height: 15rem;
+}
+.navtext{
+    margin: 0 2rem;
+    font-family: "Righteous", sans-serif;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width:50%;
+    font-size: 10rem;
+    color: #0093E9;
+}
+.left img{
+    height: 60rem;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width:50%;
+}
+.form{
+    font-size: 3rem;
+    height: 50rem;
+    width: 40rem;
+    border:0.2rem solid;
+    border-radius: 2rem;
+    box-shadow: 5rem 2rem 7rem  #0093E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-body{
+    margin: 2rem;
+    height: 46rem;
+    width: 36rem;
+}
+.form-body h4{
+    text-align: center;
+    font-size: 4.5rem;
+    margin: 1.5rem 0;
+    font-family: "Bona Nova SC", serif;
+}
+.form-login{
+    height: 33rem;
+    width: 100%;
+    
+}
+.textname{
+    font-size: 2.3rem;
+    font-family: "Quicksand", sans-serif;
+}
+.intext{
+    font-family: "Kode Mono", monospace;
+    height: 5rem;
+    width: 100%;
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    outline: none;
+    background-color: rgba(218, 211, 211, 0.863);
+    border: none;
+}
+.new{
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.btn{
+    margin: 2rem 0;
+    height: 5rem;
+    width: 100%;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: "Quicksand", sans-serif;
+    background: var(--accent-color--);
+}
