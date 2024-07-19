@@ -47,6 +47,7 @@ function FormLogin() {
               </div>
               <hr />
               <div className="new">
+                <p><a href="/">Forget Password ?</a></p>
                 <p>If New Member 
                 <a href="/">Click Here</a></p>
               </div>

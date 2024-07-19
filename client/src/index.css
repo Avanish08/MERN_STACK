@@ -18,6 +18,8 @@ html{
 
 :root{
   --primary-color--:#fff;
-  --secondary-color--:linear-gradient(135deg, #0093E9 19%, #80D0C7 88%);
+  --secondary-color--:linear-gradient(247deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   --accent-color--:linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
+
+
